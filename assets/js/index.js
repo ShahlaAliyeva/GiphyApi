@@ -34,7 +34,7 @@ $(document).ready(function () {
     $(document).on('click', 'input:button', function () {
         queue = $(this).val();
 
-        var queryURL = ("http://api.giphy.com/v1/gifs/search?q=" + queue + "&api_key=kBZUhMtzJjJ4FUDxd9cqG0xgPhZ9nkZJ");
+        var queryURL = ("https://api.giphy.com/v1/gifs/search?q=" + queue + "&api_key=kBZUhMtzJjJ4FUDxd9cqG0xgPhZ9nkZJ");
 
         $.ajax({
             url: queryURL,
