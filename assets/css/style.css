@@ -1,0 +1,28 @@
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.combined {
+    float: left;
+}
+
+.colOne {
+    max-width: 70%;
+    min-width: 70%;
+    float: left;
+}
+
+.colTwo {
+    max-width: 30%;
+    min-width: 30%;
+    float: left;
+}
+
+.button {
+    padding: 5px 10px;
+    background-color: teal;
+    color: white;
+    margin-right: 7px;
+    border-radius: 8px;
+}
